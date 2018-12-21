@@ -1,6 +1,24 @@
 # vue-cordova
 use cordova plugs in vue
 
+
+
+# You may not need Vue-Cordova
+
+Important Note: You **DO NOT** need Vue-Cordova to use Vue with Cordova or access Cordova plugins from Vue components. Vue-Cordova is a utility that makes the following plugins available in Vue components under ```Vue.cordova```:
+
+```
+cordova-plugin-baidumaplocation
+cordova-plugin-camera
+cordova-plugin-contacts
+cordova-plugin-device
+cordova-plugin-file-transfer
+cordova-plugin-file
+cordova-plugin-media
+cordova-sqlite-storage
+phonegap-plugin-barcodescanner
+```
+
 ## important
 
 ```javascript
